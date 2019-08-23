@@ -5,31 +5,30 @@
     </head>
     <body>
         <h1>Registrer</h1>
-        <form>
-
+        <form method="GET">
             <div>
-                <label>First name:</label>
-            <input type="text" name="First_name">
-            <label >Last Name</label>
-            <input type="text" name="Last_name">
+            <label for="First_name">First name:</label>
+            <input type="text" name="First_name" id="First_name">
+            <label for="Last_name" >Last Name</label>
+            <input type="text" name="Last_name" id="Last_name">
         </div>
         <div>
-            <label>Male</label>
-            <input type="radio" name="Genero">
-            <label>Female</label>
-            <input type="radio" name="Genero">
-            <label>Other</label>
-            <input type="radio" name="Genero">
+            <label for="Male">Male</label>
+            <input type="radio" name="Genero" id="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="Genero" id="Female">
+            <label for="Other">Other</label>
+            <input type="radio" name="Genero" id="Other">
         </div>
         <div>
-            <label>Email: </label>
-            <input type="email">
-            <label>Password: </label>
-            <input type="password" name="Password">
+            <label for="Email">Email: </label>
+            <input type="email" id="Email">
+            <label for="Password">Password: </label>
+            <input type="password" name="Password" id="Password">
         </div>
         <div>
             <!--Enviar informacion-->
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="Send">
         </div>
     </form>
         <div>
